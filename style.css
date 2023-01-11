@@ -1,0 +1,33 @@
+body{
+    margin:0px;
+    padding: 0px;
+}
+#navi{
+    background-color: #f35136;
+    height: 15vh;
+    display: block;
+}
+
+.menu {
+    list-style-type: none;
+    display: inline-block;
+}
+.menu div a {
+   /*  margin-right: 20px;
+    margin-bottom: 20px; */
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+
+} 
+#cat{
+    width: 40px;
+    height: 40px;
+    background-image: url(./icon-cat.png);
+    background-size: cover;
+    position: absolute;
+    top: 20px; 
+    left: 90%;  
+}
