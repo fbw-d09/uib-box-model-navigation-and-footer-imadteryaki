@@ -1,0 +1,61 @@
+body{
+    margin:0px;
+    padding: 0px;
+}
+
+#navi , #footer{
+    width: 100%;
+    display: block;
+    position: fixed;
+    z-index: 1000;
+
+}
+#navi{
+    background-color: #f35136;
+    top: 0px; 
+}
+
+.menu {
+    list-style-type: none;
+    display: inline-block;
+}
+.menu div {
+    padding-top: 10px;
+}
+.menu div a {
+    margin-right: 40px;
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+
+} 
+#cat{
+    width: 30px;
+    height: 30px;
+    background-image: url(./icon-cat.png);
+    background-size: cover;
+    position: absolute;
+    top: 20px; 
+    left: 95%;  
+}
+
+#content{
+    width: 70%;
+    padding-top: 100px ;
+    margin: 0 auto;
+    text-align: justify;
+   
+}
+#content h2{
+    text-decoration: underline;
+    font-weight: bold;
+    text-align: center;
+}
+
+#footer{
+    bottom: 0;
+    background-color: #222;
+    color: white;  
+}
